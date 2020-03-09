@@ -1,0 +1,35 @@
+{
+  "name": "tweetr",
+  "version": "1.0.1",
+  "description": "Basic twitter authentication package.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noguntuberu/tweetr.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noguntuberu/tweetr/issues"
+  },
+  "homepage": "https://github.com/noguntuberu/tweetr#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hmacsha1": "^1.0.0"
+  },
+  "author": {
+    "name": "Oguntuberu Nathan O",
+    "email": "nateoguns.work@gmail.com",
+    "url": "https://noguntuberu.github.io"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3"
+  }
+}
